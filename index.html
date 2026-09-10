@@ -4,8 +4,153 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Aula 02</h1>
+    <header>
+        <h1>Purrfect</h1>
+         <img src="gatinhoclaco.png" alt="" id="logo">
+
+         
+
+        <nav class="cabecalho">
+            <ul>
+                <li><a href="#" onclick="mostrarSecao('inicio')">Início</a></li>
+                <li><a href="#" onclick="mostrarSecao('racas')">Raças</a></li>
+                <li><a href="#" onclick="mostrarSecao('curiosidades')">Curiosidades</a></li>
+                <li><a href="#" onclick="mostrarSecao('agendar')">Agende sua consulta</a></li>
+            </ul>
+
+             <button onclick="trocarCor()">Alterar fundo</button>
+
+        </nav>
+    </header>
+
+<main>
+    <section id="inicio">
+        <h2>Descubra o mundo dos gatos, aprenda sobre eles e deixe cada ronronar lhe conquistar.</h2>
+        
+        <p>
+        Aqui você encontrará informações sobre diferentes
+        raças, curiosidades e muito mais sobre o universo felino.
+        </p>
+
+        
+        <img src="patinha.png" class="patinha" id="patinha1">
+        <img src="patinha.png" class="patinha" id="patinha2">
+        <img src="patinha.png" class="patinha" id="patinha3">
+        <img src="patinha.png" class="patinha" id="patinha4">
+        </section>
+
+
+    <section class="section" id="curiosidades">
+        <h2>Curiosidades</h2>
+        <ul>
+            <li>Em média um gato passa 2/3 do dia a dormir. Isso significa que em 9 anos de vida, 
+                apenas está acordado 3 anos!</li>
+            <li>Os gatos não sentem o sabor doce.</li>
+            <li>As gatas tendem a ser destras, enquanto os gatos tendem a ser canhotos.</li>
+            <li>Um gato faz cerca de 100 sons diferentes, enquanto um cão faz cerca de 10.</li>
+            <li>O cérebro de um gato é biologicamente mais similar ao de um humano do que o cérebro de um cão. 
+                Ambos, humanos e gatos, têm uma região idêntica no cérebro responsável pelas emoções.</li>
+            <li>A audição de um gato é melhor do que a de um cão. Um gato consegue ouvir sons de alta frequência, 
+                cerca de 2 oitavas acima de qualquer humano.</li>
+            <li>Alguns estudos mostraram que os gatos veem as cores azuis, roxos, verdes e amarelos, 
+                então os gatinhos não veem tons tão ricos de cores.</li>
+            <li>Os gatos são muito desconfiados e sabem que na hora de dormir é quando estão mais vulneráveis. 
+                    Portanto, quando um gato gosta de dormir com o tutor, mostra que tem total confiança de que nada 
+                    de ruim acontecerá, além de adorarem dormir no conforto, claro.</li>
+            <li>Um gato pode correr a uma velocidade de 49 km/h em distâncias curtas e 
+                pular 5 vezes sua altura em um salto único.</li>
+            <li>Os pequenos tufos de pelos nas orelhas de um gato impedem a entrada de poeira, 
+                direcionam o som para os ouvidos e os isolam quando necessário.</li>
+            <li>A capacidade de um gato de encontrar seu lar de volta existe, os especialistas acreditam que os gatos 
+                usam o ângulo da luz solar para encontrar o caminho ou que possuam células magnéticas em seus cérebros 
+                que agem como uma bússola.</li>
+                <li>Assim como a nossa impressão digital, o padrão do nariz do gato é único.</li>
+            <li>Por não possuir a clavícula, o gato passa em qualquer lugar que a sua cabeça consiga entrar.</li>
+        </ul>
+    </section>
+            
+    <section class="section" id="racas">
+        <h2>Raças</h2>
+        <table>
+            <tr> 
+                <th>Raça</th>
+                <th>Tamanho</th>
+                <th>Personalidade</th>
+                <th>Expectativa de vida</th>
+            </tr>
+
+            <tr>
+                <td>Siamês</td>
+                <td>Médio</td>
+                <td>Brincalhão</td>
+                <td>12-20 anos</td>
+            </tr>
+
+             <tr>
+                <td>Persa</td>
+                <td>Médio</td>
+                <td>Calmo</td>
+                <td>12-17 anos</td>
+            </tr>
+
+             <tr>
+                <td>Maine Coon</td>
+                <td>Grande</td>
+                <td>Sociável</td>
+                <td>12-15 anos</td>
+            </tr>
+
+            <tr>
+                <td>Ragdoll</td>
+                <td>Grande</td>
+                <td>Carinhoso</td>
+                <td>12-17 anos</td>
+            </tr>
+
+            <tr>
+                <td>Bengal</td>
+                <td>Médio</td>
+                <td>Ativo</td>
+                <td>12-16 anos</td>
+                </tr>
+
+                <tr>
+                    <td>Sphynx</td>
+                    <td>Médio</td>
+                    <td>Afetuoso</td>
+                    <td>8-14 anos</td>
+                </tr>
+
+                <tr>
+                    <td>Vira-lata (SRD)</td>
+                    <td>Variado</td>
+                    <td>Dócil e adaptável</td>
+                    <td>12-18 anos</td>
+                </tr>
+            
+        </table>
+    </section>
+
+        <section class="section" id="agendar">
+            <form action="#">
+                <h2>Agende a consulta do seu gatinho!</h2>
+                <label for="nome">Nome do gato:</label>
+                <input type="text" placeholder="Digite o nome">
+
+                <label for="email">Seu E-mail:</label>
+                <input type="email" placeholder="Digite seu email">
+
+                <label for="nome">Data:</label>
+                <input type="date">
+                
+                <button type="submit">Enviar</button>
+            </form>
+           
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
