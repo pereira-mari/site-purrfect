@@ -1,0 +1,249 @@
+header{
+   background-color: #ef99e7;
+   padding: 25px 25px 0;
+   text-align: center;
+   border-radius: 0 0 20px 20px;
+}
+h1 {
+   color: #9e098f;
+   font-size: 45px;
+   margin: 10px;
+}
+
+#logo {
+   width: 120px;
+   height: auto;
+   object-fit: cover;
+   display: block;
+   margin: auto;
+   margin-top: -40px;
+}
+
+nav.cabecalho {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   gap: 20px;
+   color: #9d118f;
+   font-weight: bold;
+   font-size: 20px;
+   margin-top: 30px;
+ }
+
+nav.cabecalho ul{
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   margin-left: 20px;
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+}
+
+nav.cabecalho a {
+   color: #9d118f;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+nav.cabecalho button {
+   background-color: #9d118f;
+   color: white;
+   border: none;
+   padding: 10px 18px;
+   cursor: pointer;
+   margin-bottom: 20px;
+   margin-left: auto;
+}
+
+body{
+   background-color: #ffd0fa;
+}
+
+.escuro{
+   background-color: #52054b;
+   color: white;
+   .section{
+    background-color: #9d118f;
+   }
+
+   h2 {
+      color: #ef99e7;
+   }
+   #curiosidades li {
+      color: white;
+   }
+   button {
+      background-color: #ef99e7;
+      color: black;
+   }
+
+   th, td{
+   border: 1px solid #ef99e7;;
+}
+
+th {
+   background-color: #ef99e7;
+   color: #9e098f;
+}  
+
+form {
+   border: 2px solid #ef99e7;
+}
+}
+
+li a:hover {
+   color: white;
+}
+
+.section{
+   display: none;
+   background-color: #ef99e7;
+   border-radius:5mm;
+   padding: 5px;
+   margin-bottom: 10mm;
+   margin-top: 30px;
+ }
+
+ h2{
+   color: #9d118f;
+   margin-left: 20px;
+ }
+
+#curiosidades {
+   padding: 30px;
+   margin: 25px 0;
+   border-radius: 20px;
+   box-sizing: border-box;
+}
+
+#curiosidades ul {
+    padding-left: 25px;
+    margin: 0;
+}
+
+#curiosidades li {
+   color: #3f203b;
+   font-size: 17px;
+   line-height: 1.5;
+   margin-bottom: 8px;
+}
+
+#racas h2 {
+   margin-top: 30px;
+   margin-left: 50px;
+   font-size: 27px;
+}
+table {
+   width: 80%;
+   margin: 20px auto;
+}
+
+th, td{
+   border: 1px solid #9d118f;;
+}
+th {
+   background-color: #9d118f;
+   color: #ef99e7;
+}
+
+tr:hover {
+   background-color: #f8dce5;
+}
+
+form {
+   width: 80%;
+   max-width: 500px;
+   margin: 20px auto;
+   padding: 25px;
+   border: 2px solid #9d118f;
+   border-radius: 15px
+}
+
+form label {
+   display: block;
+   margin-top: 12px;
+}
+
+form h2 {
+   margin-top: 5px;
+   text-align: center;
+}
+
+form input {
+   display: block;
+   width: 100%;
+   padding: 8px;
+   margin-top: 5px;
+   box-sizing: border-box;
+}
+
+form button {
+   margin-top: 15px;
+   padding: 10px 20px;
+   color: white;
+   border:2px solid #9e098f;
+   background-color: #9e098f;
+   border-radius: 8px;
+   cursor: pointer;
+}
+ 
+#inicio {
+   margin: 25px;
+   padding: 40px;
+   border-radius: 20px;
+   text-align: center;
+   overflow: hidden;
+}
+
+#inicio h2 {
+   font-size: 32px;
+}
+
+#inicio p {
+   font-size: 18px;
+}
+
+section {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Patinhas decorativas */
+.patinha {
+    position: absolute;
+    width: 90px;
+    opacity: 0.7;
+    z-index: 0;
+}
+
+/* posições */
+#patinha1 {
+    top: 30px;
+    left: 50px;
+}
+
+#patinha2 {
+    bottom: 30px;
+    right: 100px;
+    width: 65px;
+}
+
+#patinha3 {
+    bottom: 30px;
+    left: 170px;
+    width: 65px;
+}
+
+#patinha4 {
+    top: 30px;
+    right: 20px;
+}
+
+/* Para o texto ficar na frente */
+section h1,
+section p {
+    position: relative;
+    z-index: 2;
+}
